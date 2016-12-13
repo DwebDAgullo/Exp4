@@ -1,0 +1,15 @@
+{
+  "name": "Exp4",
+  "homepage": "https://github.com/DwebDAgullo/Exp4",
+  "description": "Experiencia 4",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
