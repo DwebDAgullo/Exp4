@@ -11,7 +11,12 @@ class Peliculas extends CI_Controller {
 	public function json() {
     	$this->output
       		->set_content_type('application/json')
-      		->set_output(json_encode(array('data' => ($this->Asignaturas_model->get_asignaturas() != false > 0 ? $this->Asignaturas_model->get_asignaturas()->result() : ''))));
+      		->set_output(json_encode(array('data' => ($this->Pelicula->get_peliculas() != false > 0 ? $this->Pelicula->get_peliculas()->result() : ''))));
+	}
+
+	public function index() {
+		$this->load->helper('url');
+		$this->load->view('catalogo_peliculas');
 	}
 
 }
