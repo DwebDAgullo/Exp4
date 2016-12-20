@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Start Bootstrap
+                    <a href="#menu-toggle"><span class="glyphicon glyphicon-menu-hamburger">   </span>FlockFuster</a>
                     </a>
                 </li>
                 <li>
