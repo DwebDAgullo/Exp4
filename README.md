@@ -1,5 +1,4 @@
 # Experiencia 4
 
 ## Resumen
-
-No se preocupe, tenog un uno, nada funciona
+Tanto la rama master como real-master cumplen el nivel noob
